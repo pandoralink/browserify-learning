@@ -1,0 +1,17 @@
+{
+  "name": "browserify-learning",
+  "version": "1.0.0",
+  "description": "browserify demo",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.6.3"
+  },
+  "scripts": {
+    "build": "npx browserify src/index.js > dist/boudle.js"
+  },
+  "author": "poplink",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
